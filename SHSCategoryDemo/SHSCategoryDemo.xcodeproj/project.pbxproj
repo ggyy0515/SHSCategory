@@ -68,9 +68,9 @@
 		6AB0483C1EB03F9300861F03 /* UIView+GetPropertyMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GetPropertyMethod.m"; sourceTree = "<group>"; };
 		6AB0483D1EB03F9300861F03 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
 		6AB0483E1EB03F9300861F03 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
-		6AB048531EB03FA700861F03 /* SHSCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHSCategory.h; sourceTree = "<group>"; };
 		6AB048541EB0469100861F03 /* UIActionSheet+CallbackBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+CallbackBlock.h"; sourceTree = "<group>"; };
 		6AB048551EB0469100861F03 /* UIActionSheet+CallbackBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+CallbackBlock.m"; sourceTree = "<group>"; };
+		6AB048571EB1A23E00861F03 /* SHSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHSCategory.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +128,7 @@
 		6AB0480A1EB03F9300861F03 /* SHSCategory */ = {
 			isa = PBXGroup;
 			children = (
-				6AB048531EB03FA700861F03 /* SHSCategory.h */,
+				6AB048571EB1A23E00861F03 /* SHSCategory.h */,
 				6AB0480B1EB03F9300861F03 /* Foundation */,
 				6AB0480D1EB03F9300861F03 /* NSArray */,
 				6AB048101EB03F9300861F03 /* NSString */,

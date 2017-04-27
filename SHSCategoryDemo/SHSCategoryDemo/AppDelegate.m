@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SHSCategory.h"
 
 @interface AppDelegate ()
 
