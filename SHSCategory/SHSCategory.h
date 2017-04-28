@@ -21,6 +21,7 @@
 #import "UIView+BlockGesture.h"
 #import "UIView+GetPropertyMethod.h"
 #import "UIView+ViewController.h"
+#import "UIViewController+MaryPopin.h"
 
 
 #endif /* SHSCategory_h */

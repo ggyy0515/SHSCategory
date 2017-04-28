@@ -28,6 +28,7 @@
 		6AB048511EB03F9300861F03 /* UIView+GetPropertyMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0483C1EB03F9300861F03 /* UIView+GetPropertyMethod.m */; };
 		6AB048521EB03F9300861F03 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0483E1EB03F9300861F03 /* UIView+ViewController.m */; };
 		6AB048561EB0469100861F03 /* UIActionSheet+CallbackBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB048551EB0469100861F03 /* UIActionSheet+CallbackBlock.m */; };
+		6AB0485B1EB1C1C800861F03 /* UIViewController+MaryPopin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0485A1EB1C1C800861F03 /* UIViewController+MaryPopin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,8 @@
 		6AB048541EB0469100861F03 /* UIActionSheet+CallbackBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+CallbackBlock.h"; sourceTree = "<group>"; };
 		6AB048551EB0469100861F03 /* UIActionSheet+CallbackBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+CallbackBlock.m"; sourceTree = "<group>"; };
 		6AB048571EB1A23E00861F03 /* SHSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHSCategory.h; sourceTree = "<group>"; };
+		6AB048591EB1C1C800861F03 /* UIViewController+MaryPopin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MaryPopin.h"; sourceTree = "<group>"; };
+		6AB0485A1EB1C1C800861F03 /* UIViewController+MaryPopin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MaryPopin.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				6AB048571EB1A23E00861F03 /* SHSCategory.h */,
+				6AB048581EB1C1C800861F03 /* UIViewController */,
 				6AB0480B1EB03F9300861F03 /* Foundation */,
 				6AB0480D1EB03F9300861F03 /* NSArray */,
 				6AB048101EB03F9300861F03 /* NSString */,
@@ -267,6 +271,15 @@
 			path = UIView;
 			sourceTree = "<group>";
 		};
+		6AB048581EB1C1C800861F03 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6AB048591EB1C1C800861F03 /* UIViewController+MaryPopin.h */,
+				6AB0485A1EB1C1C800861F03 /* UIViewController+MaryPopin.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -356,6 +369,7 @@
 				6AB048491EB03F9300861F03 /* UIColor+Hex.m in Sources */,
 				6AB0483F1EB03F9300861F03 /* Foundation+Log.m in Sources */,
 				6AB048421EB03F9300861F03 /* NSString+MD5.m in Sources */,
+				6AB0485B1EB1C1C800861F03 /* UIViewController+MaryPopin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
