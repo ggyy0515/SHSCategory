@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64147D401EB1D3A100F314E5 /* NSString+GetURLScheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 64147D3F1EB1D3A100F314E5 /* NSString+GetURLScheme.m */; };
+		64147D431EB1D3AD00F314E5 /* NSString+IphoneType.m in Sources */ = {isa = PBXBuildFile; fileRef = 64147D421EB1D3AD00F314E5 /* NSString+IphoneType.m */; };
+		64147D461EB1D3C300F314E5 /* NSDictionary+dicWithGetParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 64147D451EB1D3C300F314E5 /* NSDictionary+dicWithGetParameter.m */; };
+		6A2289341EB56F6C009F8F0A /* UIViewController+MaryPopin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2289331EB56F6C009F8F0A /* UIViewController+MaryPopin.m */; };
 		6AB047F51EB0339500861F03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB047F41EB0339500861F03 /* main.m */; };
 		6AB047F81EB0339500861F03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB047F71EB0339500861F03 /* AppDelegate.m */; };
 		6AB047FB1EB0339500861F03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB047FA1EB0339500861F03 /* ViewController.m */; };
@@ -28,10 +32,17 @@
 		6AB048511EB03F9300861F03 /* UIView+GetPropertyMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0483C1EB03F9300861F03 /* UIView+GetPropertyMethod.m */; };
 		6AB048521EB03F9300861F03 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0483E1EB03F9300861F03 /* UIView+ViewController.m */; };
 		6AB048561EB0469100861F03 /* UIActionSheet+CallbackBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB048551EB0469100861F03 /* UIActionSheet+CallbackBlock.m */; };
-		6AB0485B1EB1C1C800861F03 /* UIViewController+MaryPopin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0485A1EB1C1C800861F03 /* UIViewController+MaryPopin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64147D3E1EB1D3A100F314E5 /* NSString+GetURLScheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GetURLScheme.h"; sourceTree = "<group>"; };
+		64147D3F1EB1D3A100F314E5 /* NSString+GetURLScheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GetURLScheme.m"; sourceTree = "<group>"; };
+		64147D411EB1D3AD00F314E5 /* NSString+IphoneType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IphoneType.h"; sourceTree = "<group>"; };
+		64147D421EB1D3AD00F314E5 /* NSString+IphoneType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IphoneType.m"; sourceTree = "<group>"; };
+		64147D441EB1D3C300F314E5 /* NSDictionary+dicWithGetParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+dicWithGetParameter.h"; sourceTree = "<group>"; };
+		64147D451EB1D3C300F314E5 /* NSDictionary+dicWithGetParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+dicWithGetParameter.m"; sourceTree = "<group>"; };
+		6A2289321EB56F6C009F8F0A /* UIViewController+MaryPopin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MaryPopin.h"; sourceTree = "<group>"; };
+		6A2289331EB56F6C009F8F0A /* UIViewController+MaryPopin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MaryPopin.m"; sourceTree = "<group>"; };
 		6AB047F01EB0339500861F03 /* SHSCategoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHSCategoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AB047F41EB0339500861F03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6AB047F61EB0339500861F03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,8 +83,6 @@
 		6AB048541EB0469100861F03 /* UIActionSheet+CallbackBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+CallbackBlock.h"; sourceTree = "<group>"; };
 		6AB048551EB0469100861F03 /* UIActionSheet+CallbackBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+CallbackBlock.m"; sourceTree = "<group>"; };
 		6AB048571EB1A23E00861F03 /* SHSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHSCategory.h; sourceTree = "<group>"; };
-		6AB048591EB1C1C800861F03 /* UIViewController+MaryPopin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MaryPopin.h"; sourceTree = "<group>"; };
-		6AB0485A1EB1C1C800861F03 /* UIViewController+MaryPopin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MaryPopin.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +96,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64147D3D1EB1D37C00F314E5 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				64147D441EB1D3C300F314E5 /* NSDictionary+dicWithGetParameter.h */,
+				64147D451EB1D3C300F314E5 /* NSDictionary+dicWithGetParameter.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		6A2289311EB56F6C009F8F0A /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6A2289321EB56F6C009F8F0A /* UIViewController+MaryPopin.h */,
+				6A2289331EB56F6C009F8F0A /* UIViewController+MaryPopin.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
 		6AB047E71EB0339500861F03 = {
 			isa = PBXGroup;
 			children = (
@@ -132,7 +159,8 @@
 			isa = PBXGroup;
 			children = (
 				6AB048571EB1A23E00861F03 /* SHSCategory.h */,
-				6AB048581EB1C1C800861F03 /* UIViewController */,
+				6A2289311EB56F6C009F8F0A /* UIViewController */,
+				64147D3D1EB1D37C00F314E5 /* NSDictionary */,
 				6AB0480B1EB03F9300861F03 /* Foundation */,
 				6AB0480D1EB03F9300861F03 /* NSArray */,
 				6AB048101EB03F9300861F03 /* NSString */,
@@ -171,6 +199,10 @@
 		6AB048101EB03F9300861F03 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
+				64147D411EB1D3AD00F314E5 /* NSString+IphoneType.h */,
+				64147D421EB1D3AD00F314E5 /* NSString+IphoneType.m */,
+				64147D3E1EB1D3A100F314E5 /* NSString+GetURLScheme.h */,
+				64147D3F1EB1D3A100F314E5 /* NSString+GetURLScheme.m */,
 				6AB048131EB03F9300861F03 /* NSString+MD5.h */,
 				6AB048141EB03F9300861F03 /* NSString+MD5.m */,
 			);
@@ -271,15 +303,6 @@
 			path = UIView;
 			sourceTree = "<group>";
 		};
-		6AB048581EB1C1C800861F03 /* UIViewController */ = {
-			isa = PBXGroup;
-			children = (
-				6AB048591EB1C1C800861F03 /* UIViewController+MaryPopin.h */,
-				6AB0485A1EB1C1C800861F03 /* UIViewController+MaryPopin.m */,
-			);
-			path = UIViewController;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -352,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AB048501EB03F9300861F03 /* UIView+BlockGesture.m in Sources */,
+				64147D401EB1D3A100F314E5 /* NSString+GetURLScheme.m in Sources */,
 				6AB0484A1EB03F9300861F03 /* UIDevice+Hardware.m in Sources */,
 				6AB047FB1EB0339500861F03 /* ViewController.m in Sources */,
 				6AB048511EB03F9300861F03 /* UIView+GetPropertyMethod.m in Sources */,
@@ -362,14 +386,16 @@
 				6AB048401EB03F9300861F03 /* NSArray+Check.m in Sources */,
 				6AB047F81EB0339500861F03 /* AppDelegate.m in Sources */,
 				6AB047F51EB0339500861F03 /* main.m in Sources */,
+				6A2289341EB56F6C009F8F0A /* UIViewController+MaryPopin.m in Sources */,
+				64147D431EB1D3AD00F314E5 /* NSString+IphoneType.m in Sources */,
 				6AB0484C1EB03F9300861F03 /* UIImage+Redraw.m in Sources */,
 				6AB0484F1EB03F9300861F03 /* UITextView+ClickedBlock.m in Sources */,
+				64147D461EB1D3C300F314E5 /* NSDictionary+dicWithGetParameter.m in Sources */,
 				6AB0484E1EB03F9300861F03 /* UITextField+ActionBlock.m in Sources */,
 				6AB048521EB03F9300861F03 /* UIView+ViewController.m in Sources */,
 				6AB048491EB03F9300861F03 /* UIColor+Hex.m in Sources */,
 				6AB0483F1EB03F9300861F03 /* Foundation+Log.m in Sources */,
 				6AB048421EB03F9300861F03 /* NSString+MD5.m in Sources */,
-				6AB0485B1EB1C1C800861F03 /* UIViewController+MaryPopin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

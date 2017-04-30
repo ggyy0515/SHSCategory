@@ -4,11 +4,11 @@
 
 step1.
 
-```objc
+```objective-c
     pod 'SHSCategory'
 ```
 step2.
-```objc
+```objective-c
     import "SHSCategory.h"
 ```
 
@@ -18,7 +18,7 @@ step2.
 
 目前包含了以下一些常用的Category
 
-```objc
+```objective-c
  "NSArray+Check.h"
  "UIAlertView+CallbackBlock.h"
  "UIButton+ClickedBlock.h"

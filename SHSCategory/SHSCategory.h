@@ -22,6 +22,9 @@
 #import "UIView+GetPropertyMethod.h"
 #import "UIView+ViewController.h"
 #import "UIViewController+MaryPopin.h"
+#import "NSDictionary+dicWithGetParameter.h"
+#import "NSString+IphoneType.h"
+#import "NSString+GetURLScheme.h"
 
 
 #endif /* SHSCategory_h */
