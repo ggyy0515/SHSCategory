@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                    = 'SHSCategory'
-  s.version                 = '0.0.3'
+  s.version                 = '0.0.4'
   s.summary                 = 'some useful categories'
   s.homepage                = 'https://github.com/ggyy0515/SHSCategory'
   s.license                 = 'MIT'

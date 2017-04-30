@@ -31,4 +31,7 @@ step2.
  "UIView+BlockGesture.h"
  "UIView+GetPropertyMethod.h"
  "UIView+ViewController.h"
+ "NSDictionary+dicWithGetParameter.h"
+ "NSString+IphoneType.h"
+ "NSString+GetURLScheme.h"
 ```
