@@ -9,6 +9,8 @@
 #ifndef SHSCategory_h
 #define SHSCategory_h
 
+#import "SHSMacro.h"
+
 #import "NSArray+Check.h"
 #import "UIAlertView+CallbackBlock.h"
 #import "UIButton+ClickedBlock.h"

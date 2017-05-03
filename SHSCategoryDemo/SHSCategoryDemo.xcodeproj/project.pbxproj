@@ -43,6 +43,7 @@
 		64147D451EB1D3C300F314E5 /* NSDictionary+dicWithGetParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+dicWithGetParameter.m"; sourceTree = "<group>"; };
 		6A2289321EB56F6C009F8F0A /* UIViewController+MaryPopin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MaryPopin.h"; sourceTree = "<group>"; };
 		6A2289331EB56F6C009F8F0A /* UIViewController+MaryPopin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MaryPopin.m"; sourceTree = "<group>"; };
+		6A2289A91EB9C3C9009F8F0A /* SHSMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHSMacro.h; sourceTree = "<group>"; };
 		6AB047F01EB0339500861F03 /* SHSCategoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHSCategoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AB047F41EB0339500861F03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6AB047F61EB0339500861F03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -114,6 +115,14 @@
 			path = UIViewController;
 			sourceTree = "<group>";
 		};
+		6A2289A81EB9C381009F8F0A /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				6A2289A91EB9C3C9009F8F0A /* SHSMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
 		6AB047E71EB0339500861F03 = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				6AB048571EB1A23E00861F03 /* SHSCategory.h */,
+				6A2289A81EB9C381009F8F0A /* Macro */,
 				6A2289311EB56F6C009F8F0A /* UIViewController */,
 				64147D3D1EB1D37C00F314E5 /* NSDictionary */,
 				6AB0480B1EB03F9300861F03 /* Foundation */,
