@@ -27,6 +27,7 @@
 #import "NSDictionary+dicWithGetParameter.h"
 #import "NSString+IphoneType.h"
 #import "NSString+GetURLScheme.h"
+#import "UIActionSheet+CallbackBlock.h"
 
 
 #endif /* SHSCategory_h */
